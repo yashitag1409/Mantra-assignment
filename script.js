@@ -56,8 +56,8 @@ const currentWeather = async () => {
         climate.innerHTML = data.weather[0].main;
         // humidty.innerHTML = data.main.humidity;
         weather.innerHTML = data.weather[0].description;
-        sunshine.innerHTML = sr_hours_min;
-        sunset.innerHTML = ss_hours_min;
+        sunshine.innerHTML = sr_hours_min + " AM";
+        sunset.innerHTML = ss_hours_min + " PM";
         wind.innerHTML = data.wind.speed;
         winddeg.innerHTML = data.wind.deg;
         // console.log("4");
@@ -89,12 +89,14 @@ stbtn.addEventListener("click", () => {
         s_latitude.innerHTML = data.coord.lat;
         s_longitude.innerHTML = data.coord.lon;
         s_temperature.innerHTML =
-          " City : Jabalpur   Temperature : " + data.main.temp + "&deg;C";
+          ` City : ${cityname.value}  Temperature : ` +
+          data.main.temp +
+          "&deg;C";
         s_pressure.innerHTML = data.main.pressure;
         s_climate.innerHTML = data.weather[0].main;
         s_weather.innerHTML = data.weather[0].description;
-        s_sunshine.innerHTML = sr_hours_min;
-        s_sunset.innerHTML = ss_hours_min;
+        s_sunshine.innerHTML = sr_hours_min + "AM";
+        s_sunset.innerHTML = ss_hours_min + "PM";
         s_wind.innerHTML = data.wind.speed;
         s_winddeg.innerHTML = data.wind.deg;
       }

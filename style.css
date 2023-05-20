@@ -1,7 +1,7 @@
 #current-result {
   background-color: whitesmoke;
   width: 50%;
-  height: 55vh;
+  height: 65vh;
   font-size: 20px;
   /* display: grid;
   grid-template-columns: auto auto; */
@@ -24,20 +24,21 @@ table {
   text-transform: uppercase;
 }
 td {
+  width: 25%;
   border-bottom: 1px solid grey;
 }
 #temperature {
   text-align: center;
+  /* width: 100%; */
+  border: none;
   justify-content: center;
 }
 #specific-result {
   background-color: whitesmoke;
   /* background-color: red; */
   width: 50%;
-  height: 55vh;
+  height: 65vh;
   font-size: 20px;
-  /* display: grid;
-        grid-template-columns: auto auto; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -45,5 +46,27 @@ td {
   overflow: hidden;
 }
 body {
-  background-color:#57C5B6;
+  background-color: #57c5b6;
+}
+
+#city {
+  margin-top: 50px;
+  font-size: large;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+footer {
+  margin-top: 15px;
+  background-color: #fff;
+  padding: 5px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -10px;
+}
+.heading-footer {
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+  font-family: cursive;
 }
