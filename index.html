@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WEATHERAPI</title>
+  </head>
+  <body>
+    <div id="current-result">
+      <div id="error"></div>
+      <table>
+        <div class="head">Current Temperature</div>
+        <br />
+        <tr id="temperature"></tr>
+        <tr>
+          <td align="left">latitude</td>
+          <td id="latitude"></td>
+          <td align="left">longitude</td>
+          <td id="longitude"></td>
+        </tr>
+        <tr>
+          <td align="left">pressure</td>
+          <td id="pressure"></td>
+          <td align="left">climate</td>
+          <td id="climate"></td>
+        </tr>
+        <tr>
+          <td align="left">humidity</td>
+          <td id="humidty">lorem</td>
+          <td align="left">weather</td>
+          <td id="weather"></td>
+        </tr>
+        <tr>
+          <td align="left">sunshine</td>
+          <td id="sunshine"></td>
+          <td align="left">sunset</td>
+          <td id="sunset"></td>
+        </tr>
+        <tr>
+          <td align="left">wind Speed</td>
+          <td id="windspeed"></td>
+          <td align="left">Wind Deg</td>
+          <td id="winddeg"></td>
+        </tr>
+      </table>
+    </div>
+    <!-- Specific Tempertaure -->
+    <div id="city">
+      <label for="#cityname">City</label>
+      <input type="text" name="city" id="cityname" />
+      <input type="button" value="Check Weather" id="stbtn" />
+    </div>
+    <div id="specific-result">
+      <div id="s-error"></div>
+      <table>
+        <div class="s-head">Specific Temperature</div>
+        <br />
+        <tr id="s-temperature"></tr>
+        <tr>
+          <td align="left">latitude</td>
+          <td id="s-latitude"></td>
+          <td align="left">longitude</td>
+          <td id="s-longitude"></td>
+        </tr>
+        <tr>
+          <td align="left">pressure</td>
+          <td id="s-pressure"></td>
+          <td align="left">climate</td>
+          <td id="s-climate"></td>
+        </tr>
+        <tr>
+          <td align="left">humidity</td>
+          <td id="s-humidty">lorem</td>
+          <td align="left">weather</td>
+          <td id="s-weather"></td>
+        </tr>
+        <tr>
+          <td align="left">sunshine</td>
+          <td id="s-sunshine"></td>
+          <td align="left">sunset</td>
+          <td id="s-sunset"></td>
+        </tr>
+        <tr>
+          <td align="left">wind Speed</td>
+          <td id="s-windspeed"></td>
+          <td align="left">Wind Deg</td>
+          <td id="s-winddeg"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- description : ${descrip} temp : ${tempature} windspd : ${windspd} -->

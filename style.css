@@ -1,0 +1,49 @@
+#current-result {
+  background-color: whitesmoke;
+  width: 50%;
+  height: 55vh;
+  font-size: 20px;
+  /* display: grid;
+  grid-template-columns: auto auto; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 15px;
+  overflow: hidden;
+}
+table {
+  width: 100%;
+  height: 90%;
+}
+.head {
+  align-items: center;
+  text-align: center;
+  /* margin: 5px; */
+  /* padding: 5px; */
+  justify-content: center;
+  text-transform: uppercase;
+}
+td {
+  border-bottom: 1px solid grey;
+}
+#temperature {
+  text-align: center;
+  justify-content: center;
+}
+#specific-result {
+  background-color: whitesmoke;
+  /* background-color: red; */
+  width: 50%;
+  height: 55vh;
+  font-size: 20px;
+  /* display: grid;
+        grid-template-columns: auto auto; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 15px;
+  overflow: hidden;
+}
+body {
+  background-color:#57C5B6;
+}
